@@ -4,10 +4,10 @@ English to German seq2seq machine translation model, as part of our final projec
 The files provided are 3 separate notebooks and 3 datasets that have been preprocessed and split from the original dataset. We describe them here and they should be run in the following order;
 
 ### 1) [Data_Handling.ipnyb](Data_Handling.ipynb) 
-describes our data preprocessing of the original English German dataset downloaded from Kaggle Bilingual Sentence Pairs, and exporting them into 3 CSVs, namely df_train.csv, df_test.csv, df_val.csv. We do this so that we can replicate the model’s performance. The files we obtained are also provided in our repository.
+describes our data preprocessing of the original English German dataset downloaded from [Kaggle Bilingual Sentence Pairs](https://www.kaggle.com/datasets/alincijov/bilingual-sentence-pairs), and exporting them into 3 CSVs, namely df_train.csv, df_test.csv, df_val.csv. We do this so that we can replicate the model’s performance. The files we obtained are also provided in our repository.
 
 ### 2) [Model_Training.ipynb](Model_Training.ipynb)
-describes our model training process, and exports the model as a h5 file for portability. We do not include the model as it is too large a file. We included it in our submission.
+describes our model training process, and exports the model as a .h5 file for portability. We do not include the model as it is too large a file. We included it in our submission.
 
 ### 3) [Evaluation.ipynb](Evaluation.ipynb) 
 evaluates our model and contains a custom translator for the user’s own input. requires the model (.h5 file) and the datasets to run.
