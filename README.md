@@ -18,7 +18,7 @@ The latter 2 notebooks were run on Google Colab, for their GPU hardware accelera
 ### Setup steps and Dependencies:
 
 Download the original dataset from Kaggle. We used the English German bilingual sentence pairs [dataset](https://www.kaggle.com/datasets/alincijov/bilingual-sentence-pairs), named deu.txt.
-Have the required packages installed. You may follow ours at [requirements.txt](requirements.txt).
+Have the required packages installed. You may follow ours at [requirements.txt](requirements.txt) by running `pip install -r requirements.txt`
 
 ---
 ### Areas for improvement:
